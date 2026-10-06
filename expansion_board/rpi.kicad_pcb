@@ -45,6 +45,7 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
@@ -99,6 +100,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(aux_axis_origin 100 100)
 		(grid_origin 100 100)
 		(pcbplotparams
@@ -6258,17 +6260,6 @@
 			(justify left)
 		)
 	)
-	(gr_text "v1.0"
-		(at 108.1 86.6 90)
-		(layer "F.SilkS")
-		(uuid "496e6518-a78c-4b49-95c3-2a587ce06e93")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
 	(gr_text "CH0"
 		(at 128.69 69.25 90)
 		(layer "F.SilkS")
@@ -6400,13 +6391,13 @@
 			)
 		)
 	)
-	(gr_text "ADC IN  0-3.3V"
-		(at 140.1 73.4 0)
+	(gr_text "iShawyha\n"
+		(at 104 86.6 90)
 		(layer "F.SilkS")
-		(uuid "b8b27e5c-d7f6-4edf-9550-6b801ffb72ad")
+		(uuid "56e12ee1-f37d-47b3-8ed1-17a804882711")
 		(effects
 			(font
-				(size 0.9 0.9)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
