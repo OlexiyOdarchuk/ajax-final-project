@@ -1,0 +1,14 @@
+.history/
+~*.lck
+*.kicad_prl
+fp-info-cache
+*-backups/
+
+*.py
+
+*.FCStd1
+*.FCBak
+
+case/rpi-5b_no_graphics.step
+
+__pycache__/
