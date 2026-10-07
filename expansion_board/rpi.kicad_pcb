@@ -2915,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "788dcf1b-b102-41a4-b7bd-5012f350276a")
@@ -6067,7 +6067,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "100n"
+	(gr_text "1u"
 		(at 132.699999 51.25 0)
 		(layer "F.SilkS")
 		(uuid "c73ae754-940e-418b-9b69-d64c36635d49")
