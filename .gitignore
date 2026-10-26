@@ -12,3 +12,5 @@ fp-info-cache
 case/rpi-5b_no_graphics.step
 
 __pycache__/
+
+expansion_board/production/
