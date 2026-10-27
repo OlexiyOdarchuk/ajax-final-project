@@ -1,0 +1,438 @@
+(footprint "XCVR_HC-SR04"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -19.48505 3.31671 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "282013cc-7b1f-4b2e-b823-2f4fabda6b13")
+		(effects
+			(font
+				(size 1.00052 1.00052)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XCVR_HC-SR04"
+		(at 23.8102 3.370695 0)
+		(layer "F.Fab")
+		(uuid "106e1643-4a06-462c-8613-b7c8a328b66f")
+		(effects
+			(font
+				(size 1.001693 1.001693)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f1f9669-35cd-47bc-9cea-76b91c036035")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Ultrasonic Sensor Module,Rectangular,20-4000 mm,5 V,15 mA,Arduino Compatible | OSEPP HC-SR04"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44c78f18-08a7-4e28-846d-6caaf6adb6c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MF" "OSEPP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cce19535-95eb-4b62-bb67-223e3be6ecf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d8ae943-b921-4db7-b666-ad153bba0432")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34baafdf-6cf2-45a2-8cbf-e6287658d943")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/HC-SR04/OSEPP/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5acc0e61-e650-4876-8944-041143290b75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/HC-SR04/OSEPP/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04cdfd40-5c89-4fa0-a4d0-d7b669d5f0ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "HC-SR04"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fac7286-c2a6-4d14-8010-b6534a2e2c92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4702917&manufacturer=OSEPP&part_name=HC-SR04&search_term=hc-sr04"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dba256b-e503-445b-a7a6-3b367ef04adb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc89c2d9-32ca-4960-beae-463ad5cd7d99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Osepp"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef1d3f75-1051-4ae0-b23f-89f4a3452158")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -22.5 4.27)
+		(end 22.5 4.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77246b87-5014-45cb-859c-5b4603bd16fa")
+	)
+	(fp_line
+		(start -22.5 5.47)
+		(end -22.5 4.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "984b4944-31d8-4780-977f-bb66a34edf45")
+	)
+	(fp_line
+		(start -21.5 5.47)
+		(end -22.5 5.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa3d181d-3dfc-4398-9061-fedcc898da84")
+	)
+	(fp_line
+		(start -21.5 5.47)
+		(end -21.5 19.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80fa742e-f6f6-458c-ae97-bf0059d17617")
+	)
+	(fp_line
+		(start -21.5 19.27)
+		(end -5.5 19.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0fc5c14-0739-487b-9ceb-01969baccf59")
+	)
+	(fp_line
+		(start -5.5 5.47)
+		(end -21.5 5.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a529fde-958e-4cec-b64d-4411e9170b1a")
+	)
+	(fp_line
+		(start -5.5 5.47)
+		(end -5.5 19.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "914416c4-5bae-429b-b8ad-337276bfc3f3")
+	)
+	(fp_line
+		(start 5.5 5.47)
+		(end -5.5 5.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbed28da-155e-48b3-b9b9-5f28cdb2d77c")
+	)
+	(fp_line
+		(start 5.5 5.47)
+		(end 5.5 19.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4d4b2c9-4dfe-4f00-9445-116cfca0ee6d")
+	)
+	(fp_line
+		(start 5.5 19.27)
+		(end 21.5 19.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10b306fa-7990-43e8-9f47-1b65f8f641a6")
+	)
+	(fp_line
+		(start 21.5 5.47)
+		(end 5.5 5.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "850c8b01-ecba-43f3-9c30-e1189eb6652b")
+	)
+	(fp_line
+		(start 21.5 5.47)
+		(end 21.5 19.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ca4eed2-cd5c-4ac6-89bd-697576f341e1")
+	)
+	(fp_line
+		(start 22.5 4.27)
+		(end 22.5 5.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf46d18c-ff12-4756-bae7-8d4e85843c29")
+	)
+	(fp_line
+		(start 22.5 5.47)
+		(end 21.5 5.47)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea576d23-bfc3-4b92-9f3e-0db582220bb2")
+	)
+	(fp_line
+		(start -22.75 4)
+		(end -22.75 19.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce93ea05-4d9d-467d-ab23-b931b14c6cf5")
+	)
+	(fp_line
+		(start -22.75 19.5)
+		(end 22.75 19.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e212fd9b-f583-4c86-98e1-c50678c51657")
+	)
+	(fp_line
+		(start -5 -1.25)
+		(end -5 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c64d928-666d-49b5-a9b9-503ed4a68bb6")
+	)
+	(fp_line
+		(start -5 4)
+		(end -22.75 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e41a04b8-6376-47d1-8a5f-b7118dba3b34")
+	)
+	(fp_line
+		(start 5 -1.25)
+		(end -5 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27148424-1321-4f17-96b0-5ac4be94834c")
+	)
+	(fp_line
+		(start 5 4)
+		(end 5 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c29f7196-e838-484c-b86a-4ed0ee9ff1d9")
+	)
+	(fp_line
+		(start 22.75 4)
+		(end 5 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9b4e54d-a349-468b-8730-e576c1c62401")
+	)
+	(fp_line
+		(start 22.75 19.5)
+		(end 22.75 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01a98558-c653-44b4-99c4-99f5b301fb1b")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.53 1.53)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c09904e8-ac58-4d1f-971d-46f19cfb3473")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.53 1.53)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "30bd8908-6fd8-4b70-bece-33fb12ce3080")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 1.53 1.53)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8298dc5e-92ec-4ee2-9267-f6eb0729e4a1")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 0)
+		(size 1.53 1.53)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "aedae2ab-333a-45da-b811-beaacd25272d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/rpi.3dshapes/HC-SR04.step"
+		(offset
+			(xyz 0 -10.05 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

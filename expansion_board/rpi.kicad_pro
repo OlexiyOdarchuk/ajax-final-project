@@ -77,7 +77,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|111000000|100000000|8a7173fa-a5b9-4168-a27e-ca55f1177d0d|80fa742e-f6f6-458c-ae97-bf0059d17617",
+          "Модуль виходить за край плати"
+        ],
+        [
+          "silk_edge_clearance|127000000|100000000|8a7173fa-a5b9-4168-a27e-ca55f1177d0d|914416c4-5bae-429b-b8ad-337276bfc3f3",
+          "Модуль виходить за край плати"
+        ],
+        [
+          "silk_edge_clearance|138000000|100000000|8a7173fa-a5b9-4168-a27e-ca55f1177d0d|a4d4b2c9-4dfe-4f00-9445-116cfca0ee6d",
+          "Модуль виходить за край плати"
+        ],
+        [
+          "silk_edge_clearance|154000000|100000000|8a7173fa-a5b9-4168-a27e-ca55f1177d0d|7ca4eed2-cd5c-4ac6-89bd-697576f341e1",
+          "Модуль виходить за край плати"
+        ],
+        [
+          "silk_edge_clearance|100000000|54230000|37914bed-263c-4116-a3f8-80eebeda652f|08e4af82-bbb4-43e6-b740-fa6a446a5041",
+          "Модуль виходить за край плати"
+        ],
+        [
+          "silk_edge_clearance|100000000|56770000|37914bed-263c-4116-a3f8-80eebeda652f|38c498e4-a7d9-407b-b536-f2c3413aa24c",
+          "Модуль виходить за край плати"
+        ],
+        [
+          "silk_edge_clearance|100000000|59420000|37914bed-263c-4116-a3f8-80eebeda652f|f8be7d58-b195-4edc-86aa-cc41f643fec0",
+          "Модуль виходить за край плати"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -704,7 +733,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR5-19,C1,D1-3,J2-4,R1-5,SW1-2,U1-2",
+    "used_designators": "#FLG1-4,#PWR5-19,C1-2,D1-3,J2-4,R1-5,SW1-2,U1-2",
     "variants": []
   },
   "sheets": [
