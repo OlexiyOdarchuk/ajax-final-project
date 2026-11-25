@@ -1,0 +1,16 @@
+[Unit]
+Description=IO Gateway sampling daemon
+
+[Service]
+Type=notify
+User=iogw
+Group=iogw
+ExecStart=/usr/bin/iogwd
+Restart=on-failure
+RestartSec=2
+WatchdogSec=10
+RuntimeDirectory=iogw
+RuntimeDirectoryMode=0750
+
+[Install]
+WantedBy=multi-user.target

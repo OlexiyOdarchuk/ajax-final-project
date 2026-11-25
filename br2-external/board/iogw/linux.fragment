@@ -1,0 +1,11 @@
+# Changes on top of bcm2712_defconfig.
+
+# /dev/spidev0.0 and /dev/i2c-1 available at boot without module loading
+CONFIG_SPI_SPIDEV=y
+CONFIG_I2C_CHARDEV=y
+
+# RP1 bus controllers (built as modules in bcm2712_defconfig)
+CONFIG_SPI_DESIGNWARE=y
+CONFIG_SPI_DW_MMIO=y
+CONFIG_I2C_DESIGNWARE_CORE=y
+CONFIG_I2C_DESIGNWARE_PLATFORM=y

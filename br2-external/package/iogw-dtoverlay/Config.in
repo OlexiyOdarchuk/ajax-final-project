@@ -1,0 +1,7 @@
+config BR2_PACKAGE_IOGW_DTOVERLAY
+	bool "iogw-dtoverlay"
+	depends on BR2_PACKAGE_RPI_FIRMWARE
+	help
+	  Device Tree overlay for the IO Gateway expansion board:
+	  SPI0 (MCP3008 on CE0) and I2C1 (SHT31). Installed as
+	  overlays/iogw.dtbo on the boot partition.

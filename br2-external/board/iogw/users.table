@@ -1,0 +1,2 @@
+iogw     -1 iogw     -1 * - - gpio,i2c,spi IO gateway daemon
+iogw-api -1 iogw-api -1 * - - iogw         IO gateway REST API

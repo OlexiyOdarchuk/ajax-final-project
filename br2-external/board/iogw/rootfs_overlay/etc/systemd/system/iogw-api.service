@@ -1,0 +1,14 @@
+[Unit]
+Description=IO Gateway REST API
+Wants=iogw-daemon.service
+After=iogw-daemon.service
+
+[Service]
+User=iogw-api
+Group=iogw-api
+ExecStart=/usr/bin/iogw-api
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
